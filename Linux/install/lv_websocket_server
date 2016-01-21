@@ -1,0 +1,35 @@
+#! /bin/sh
+### BEGIN INIT INFO
+# Provides:          websocket connection for Raspberry Pi Compatible Compiler for LabVIEW
+# Required-Start:    $network $local_fs $remote_fs $syslog $named
+# Required-Stop:     $network $local_fs $remote_fs $syslog $named
+# Default-Start:     2 3 4 5
+# Default-Stop:      0 1 6
+# Short-Description: Websocket service for RPiCCLV
+# Description:       Websocket listener on port 9090 for RPiCCLV commands.
+### END INIT INFO
+
+# Author: Darin Kinion <darin.kinion@revdaq.com>
+#
+
+case "$1" in
+  start)
+	echo "starting websocket service"
+	./usr/share/RPiCCLV/LV_WS_Service.py start
+	;;
+  stop)
+	echo "stopping websocket service"
+	./usr/share/RPiCCLV/LV_WS_Service.py stop
+	;;
+  restart|reload)
+	echo "restarting websocket service"
+	./usr/share/RPiCCLV/LV_WS_Service.py restart
+	;;
+  *)
+	#echo "Usage: $SCRIPTNAME {start|stop|restart|reload|force-reload}" >&2
+	echo "Usage: $SCRIPTNAME {start|stop|restart|reload}" >&2
+	exit 3
+	;;
+esac
+
+:
