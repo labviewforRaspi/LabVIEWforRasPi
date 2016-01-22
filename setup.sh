@@ -10,5 +10,7 @@ cd install
 chmod a+x install.sh
 ./install.sh
 mv uninstall.sh ..
+chmod a+x uninstall.sh
 cd ..
 rm -r install
+rm lvinstall.tgz
