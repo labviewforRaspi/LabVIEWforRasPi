@@ -36,5 +36,8 @@ cp `pwd`/src/daemon.py /usr/share/RPiCCLV/
 mkdir -p /var/log/RPiCCLV/lv_autodetect/
 mkdir -p /var/log/RPiCCLV/lv_ws_server/
 
+#create executable path
+mkdir -p /usr/local/RPiCCLV
+
 service lv_autodetect start
 service lv_websocket_server start
