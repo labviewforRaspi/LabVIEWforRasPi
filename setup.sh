@@ -9,4 +9,6 @@ rm -r lvinstall
 cd install
 chmod a+x install.sh
 ./install.sh
-rm -r install.sh
+mv uninstall.sh ..
+cd ..
+rm -r install
