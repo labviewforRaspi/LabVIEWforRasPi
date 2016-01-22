@@ -18,7 +18,7 @@ chmod a+x /etc/init.d/lv_websocket_server
 update-rc.d lv_websocket_server defaults
 
 #install python module
-tar -xvjf pyVI.tbz
+tar -xjf pyVI.tbz
 cp -r `pwd`/pyVI/ /usr/local/lib/python3.4/dist-packages/
 rm -r pyVI
 
