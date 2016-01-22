@@ -1,1 +1,0 @@
-Add the URL for this repository to the VI Package Manager application if you would like to see updates automatically showing on VIPM. Otherwise, feel free to download the VIP package file to your LabVIEW development machine, double click on it and go through the installation steps as directed.
