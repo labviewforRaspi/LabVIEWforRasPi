@@ -1,4 +1,4 @@
-#install service scripts
+#remove service scripts
 service lv_autodetect stop
 service lv_websocket_server stop
 rm /etc/init.d/lv_autodetect
