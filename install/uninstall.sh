@@ -1,8 +1,5 @@
 #remove service scripts
-service lv_autodetect stop
 service lv_websocket_server stop
-rm /etc/init.d/lv_autodetect
-update-rc.d lv_autodetect remove
 rm /etc/init.d/lv_websocket_server
 update-rc.d lv_websocket_server remove
 
@@ -17,5 +14,3 @@ rm -r /var/log/RPiCCLV
 
 #remove executable path
 rm -r /usr/local/RPiCCLV
-
-

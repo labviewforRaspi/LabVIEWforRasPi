@@ -1,22 +1,23 @@
 #! /usr/bin/env python3
 
-from autobahn.twisted.websocket import WebSocketServerProtocol, \
-    WebSocketServerFactory
-
+from twisted.internet.protocol import DatagramProtocol
+from twisted.internet import reactor
+from twisted.python import log
+from autobahn.twisted.websocket import WebSocketServerProtocol,WebSocketServerFactory
 import json
 import pathlib
 import stat
+import sys
+import socket
 
-class UserAPIProtocol(WebSocketServerProtocol):
-    
+multicast_group = '236.6.6.8'
+multicast_port = 60434
+
+class UserAPIProtocol(WebSocketServerProtocol):   
     def onConnect(self, request):
-#         print("Client connecting: {0}".format(request.peer))
         self.dir = pathlib.Path('/usr/local/RPiCCLV')
-
     def onOpen(self):
-#         print("WebSocket connection open.")
         self.fileName = None
-
     def onMessage(self, payload, isBinary):
         if isBinary:
             resp = {}
@@ -56,23 +57,23 @@ class UserAPIProtocol(WebSocketServerProtocol):
                 req['error'] = 2
                 req['error_msg'] = 'Command not found : {0}'.format(command)
             self.sendMessage(json.dumps(req).encode('ascii'))
-
     def onClose(self, wasClean, code, reason):
         self.fileName = None
-#         print("WebSocket connection closed: {0}".format(reason))
-         
-if __name__ == '__main__':
 
-    import sys
+class UDP_Autodetect(DatagramProtocol):
+    def startProtocol(self):
+        self.transport.joinGroup(multicast_group)
+    def datagramReceived(self, datagram, address):
+        if datagram == b"*IDN?":
+            hostdata = {}
+            hostdata['hostname'] = socket.gethostname()
+            self.transport.write(json.dumps(hostdata).encode('ascii'), address)
 
-    from twisted.python import log
-    from twisted.internet import reactor
-
+if __name__ == "__main__":
     log.startLogging(sys.stdout)
-
     factory = WebSocketServerFactory(u"ws://127.0.0.1:9090", debug=False)
     factory.protocol = UserAPIProtocol
     factory.setProtocolOptions(maxConnections=1)
-
     reactor.listenTCP(9090, factory)
+    reactor.listenMulticast(multicast_port, UDP_Autodetect(),listenMultiple=True)
     reactor.run()
