@@ -71,7 +71,7 @@ class UDP_Autodetect(DatagramProtocol):
 
 if __name__ == "__main__":
     log.startLogging(sys.stdout)
-    factory = WebSocketServerFactory(u"ws://127.0.0.1:9090", debug=False)
+    factory = WebSocketServerFactory(u"ws://127.0.0.1:9090")
     factory.protocol = UserAPIProtocol
     factory.setProtocolOptions(maxConnections=1)
     reactor.listenTCP(9090, factory)
