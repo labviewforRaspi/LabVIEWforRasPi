@@ -3,11 +3,15 @@ apt-get update
 
 #update python environment
 apt-get -y install python3-pip
+apt-get -y install tk-dev
 pip3 install numpy --upgrade
 pip3 install twisted --upgrade
 pip3 install autobahn --upgrade
 pip3 install pycrypto --upgrade
 pip3 install pyserial --upgrade
+pip3 install spidev --upgrade
+pip3 install smbus --upgrade
+pip3 install matplotlib --upgrade
 
 #install python services
 mkdir -p /usr/share/RPiCCLV/
