@@ -10,7 +10,7 @@ pip3 install autobahn --upgrade
 pip3 install pycrypto --upgrade
 pip3 install pyserial --upgrade
 pip3 install spidev --upgrade
-pip3 install smbus --upgrade
+sudo apt-get install python3-smbus
 pip3 install matplotlib --upgrade
 
 #install python services
