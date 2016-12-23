@@ -5,3 +5,7 @@ Make sure to burn a SD Card with the image provided in this repository as, even 
 
 Support inquiries can be made at our support forum: 
 https://www.tsxperts.com/forums/forum/raspberrypiforlabviewforum/raspberry-pi-compatible-compiler-for-labview-support-forum/
+
+The complete product user manual can be found at this repository's Wiki page: https://github.com/labviewforRaspi/LabVIEWforRasPi/wiki
+
+If you bump against issues on your code, the Compiler main LabVIEW GUI includes an application, named Submit an Issue, which can be used to send us details of your issue as well as a copy of your LabVIEW source code for easier evaluation on our end. Issues are defined as compilation errors when using the support function/front panel control palette items, or any inconsistency of your results in relation to results of your code running on regular LabVIEW for Windows.
