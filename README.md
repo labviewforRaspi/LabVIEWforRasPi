@@ -3,9 +3,9 @@ This repo includes both the Raspberry Pi image that is to be used in support of 
 
 Make sure to burn a SD Card with the image provided in this repository as, even though the official Raspberry Pi PIXEL Operating System is maintained untouched, all the necessary support packages have been installed and properly configured so your Raspberry Pi is ready to receive compiled LabVIEW code. 
 
-Support inquiries can be made at our support forum: 
+Support inquiries can be made at our support forum below (recommended) or through the following e-mail address: lvforpisupport@tsxperts.com.
 https://www.tsxperts.com/forums/forum/raspberrypiforlabviewforum/raspberry-pi-compatible-compiler-for-labview-support-forum/
 
 The complete product user manual can be found at this repository's Wiki page: https://github.com/labviewforRaspi/LabVIEWforRasPi/wiki
 
-If you bump against issues on your code, the Compiler main LabVIEW GUI includes an application, named Submit an Issue, which can be used to send us details of your issue as well as a copy of your LabVIEW source code for easier evaluation on our end. Issues are defined as compilation errors when using the support function/front panel control palette items, or any inconsistency of your results in relation to results of your code running on regular LabVIEW for Windows.
+Make sure you start from the Wiki page and follow ALL of its instructions on how to setup your environment as well as places to get more information.
