@@ -3,6 +3,8 @@ This repo includes both the Raspberry Pi image that is to be used in support of 
 
 Make sure to burn a SD Card with the image provided in this repository as, even though the official Raspberry Pi PIXEL Operating System is maintained untouched, all the necessary support packages have been installed and properly configured so your Raspberry Pi is ready to receive compiled LabVIEW code. 
 
+**A NOTE TO LABVIEW 2016 USERS: MAKE SURE YOU ARE USING THE LATEST VERSION OF VI PACKAGE MANAGER (2016 SP1), OTHERWISE THE COMPILER WILL NOT PROPERLY INSTALL ON YOUR LABVIEW 2016.**
+
 Support inquiries can be made at our support forum below (recommended) or through the following e-mail address: lvforpisupport@tsxperts.com.
 https://www.tsxperts.com/forums/forum/raspberrypiforlabviewforum/raspberry-pi-compatible-compiler-for-labview-support-forum/
 
