@@ -18,7 +18,7 @@ Make sure you start from the Wiki page and follow ALL of its instructions on how
 
 **Version  1.0.0.2**
 
-Fixes: 
+Bug Fixes: 
 
 - Serial Config holding compilation
 
