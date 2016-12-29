@@ -13,3 +13,14 @@ https://www.tsxperts.com/forums/forum/raspberrypiforlabviewforum/raspberry-pi-co
 The complete product user manual can be found at this repository's Wiki page: https://github.com/labviewforRaspi/LabVIEWforRasPi/wiki
 
 Make sure you start from the Wiki page and follow ALL of its instructions on how to setup your environment as well as places to get more information.
+
+##Release Notes for VIP Packages##
+
+**Version  1.0.0.2**
+
+Fixes: 
+
+- Serial Config holding compilation
+
+- Waveform Graphs generating runtime error on the Pi. For this fix to take effect, please Update the Runtime on the Compiler->Update runtime menu item in the Raspberry Pi Compatible Compiler for LabVIEW GUI. Follow the instructions on how to do that as described by [this document](https://github.com/labviewforRaspi/LabVIEWforRasPi/blob/master/Raspberry%20Pi%20Compatible%20Compiler%20for%20LabVIEW%20GUI%20-%20Operating%20Manual.pdf)) 
+
