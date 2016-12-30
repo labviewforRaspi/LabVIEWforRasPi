@@ -24,3 +24,13 @@ Bug Fixes:
 
 - Waveform Graphs generating runtime error on the Pi. For this fix to take effect, please Update the Runtime on the Compiler->Update runtime menu item in the Raspberry Pi Compatible Compiler for LabVIEW GUI. Follow the instructions on how to do that as described by [this document](https://github.com/labviewforRaspi/LabVIEWforRasPi/blob/master/Raspberry%20Pi%20Compatible%20Compiler%20for%20LabVIEW%20GUI%20-%20Operating%20Manual.pdf)
 
+**Version 1.0.0.3**
+
+Internal Build
+
+
+**Version  1.0.0.4**
+
+Updates: 
+
+- Auto detection and notification of the user if newer versions of Runtime and/or Library files are available for upgrade
