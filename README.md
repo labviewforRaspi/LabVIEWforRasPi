@@ -34,3 +34,9 @@ Internal Build
 Updates: 
 
 - Auto detection and notification of the user if newer versions of Runtime and/or Library files are available for upgrade
+
+**Version 1.0.0.5**
+
+Fixes: 
+
+- Not allowing compilation if Runtime revision deployed to the Pi matches released Runtime version
