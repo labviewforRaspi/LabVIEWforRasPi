@@ -4,8 +4,10 @@ Revision Notes:
 
 [V1.0.0.749]
 Fixed bug to allow Waveform Graph to accept a 1D array
+
 Cosmetic fixes for Graphs and Charts
 
 [V1.0.0.751]
 Fixed bug with Progress Bar values
+
 Fixed bug with Match Pattern requiring offset to be wired
