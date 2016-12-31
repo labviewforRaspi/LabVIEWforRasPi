@@ -13,3 +13,10 @@ Cosmetic fixes for Graphs and Charts
 Fixed bug with Progress Bar values
 
 Fixed bug with Match Pattern requiring offset to be wired
+
+[V1.0.0.755]
+
+Fixed bug with SubVI input/output ordering with terminals not connected to ConPane
+
+Fixed bug with return value of Console Print functions
+
