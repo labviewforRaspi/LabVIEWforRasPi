@@ -2,6 +2,15 @@ This directory contains patches to the runtime used for the LabVIEW Compatible C
 
 Revision Notes:
 
+[V1.0.0.764]
+
+Fixed bug with carriage returns in Control Labels (i.e. Enable Termination Char in Configure Serial Port)
+
+Add support for Compound Arithmetic
+
+Fixed bug with single element Build Array and Bundle nodes
+
+
 [V1.0.0.755]
 
 Fixed bug with SubVI input/output ordering with terminals not connected to ConPane
