@@ -1,6 +1,12 @@
 This directory contains patches to the runtime used for the LabVIEW Compatible Compiler for Raspberry Pi.  Follow the section named Upgrade Your Pi Runtime from [this documnent](https://github.com/labviewforRaspi/LabVIEWforRasPi/blob/master/Raspberry%20Pi%20Compatible%20Compiler%20for%20LabVIEW%20GUI%20-%20Operating%20Manual.pdf) for instructions on how to upgrade your Pi Runtime.
 
 Revision Notes:
+[V1.0.0.768]
+
+Fixed bug in VISA error handling
+
+Fixed bug when wires connected to a loop termination terminal are branched
+
 
 [V1.0.0.764]
 
