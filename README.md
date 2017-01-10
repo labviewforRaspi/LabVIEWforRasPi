@@ -16,6 +16,32 @@ Make sure you start from the Wiki page and follow ALL of its instructions on how
 
 ##Release Notes for VIP Packages##
 
+**Version 1.0.0.7**
+
+Runtime[V1.0.0.773]
+
+- Fixed bug with GPIO Event Detection
+
+Runtime [V1.0.0.768]
+
+- Fixed bug in VISA error handling
+
+- Fixed bug when wires connected to a loop termination terminal are branched
+
+Runtime [V1.0.0.764]
+
+- Fixed bug with carriage returns in Control Labels (i.e. Enable Termination Char in Configure Serial Port)
+
+- Add support for Compound Arithmetic
+
+- Fixed bug with single element Build Array and Bundle nodes
+
+- Added Support for Compound Arithmetic
+
+- Removed need for development machine to be connected to Internet for automated version check
+
+- Added automated version update checking as part of the GUI
+
 **Version 1.0.0.6**
 
 Fixes: 
