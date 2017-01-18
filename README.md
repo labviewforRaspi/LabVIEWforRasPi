@@ -16,7 +16,7 @@ Make sure you start from the Wiki page and follow ALL of its instructions on how
 
 ##Release Notes for VIP Packages##
 
-**Version 1.0.0.8**
+**Version 1.0.0.9**
 
 Runtime [V1.0.0.805]
 
@@ -31,6 +31,12 @@ Runtime [V1.0.0.805]
 - Add additional Date/Time functions.  Format Strings follow the Python convention described in the documentation for the datetime module.  This is similar to the LabVIEW format but there are a few differences.
 
 - Cosmetic changes to increase the font size in Spinboxes and Numeric entry controls
+
+**Version 1.0.0.8**
+
+- Added Compound Arithmetic
+
+- Added support for non-english versions of LabVIEW
 
 **Version 1.0.0.7**
 
