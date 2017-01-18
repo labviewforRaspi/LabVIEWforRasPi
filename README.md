@@ -20,17 +20,17 @@ Make sure you start from the Wiki page and follow ALL of its instructions on how
 
 Runtime [V1.0.0.805]
 
-Add local configuration file (vi_name.cfg) to control window size and position.  Select 'Save' from the File menu to save the current window size and position to this file.
+- Add local configuration file (vi_name.cfg) to control window size and position.  Select 'Save' from the File menu to save the current window size and position to this file.
 
-Improve responsiveness to aborts.  File > Quit will abort running VIs
+- Improve responsiveness to aborts.  File > Quit will abort running VIs
 
-Fixed bug with swapped inputs on Replace Array Subset
+- Fixed bug with swapped inputs on Replace Array Subset
 
-Add numeric conversion functions to the palettes.
+- Add numeric conversion functions to the palettes.
 
-Add additional Date/Time functions.  Format Strings follow the Python convention described in the documentation for the datetime module.  This is similar to the LabVIEW format but there are a few differences.
+- Add additional Date/Time functions.  Format Strings follow the Python convention described in the documentation for the datetime module.  This is similar to the LabVIEW format but there are a few differences.
 
-Cosmetic changes to increase the font size in Spinboxes and Numeric entry controls
+- Cosmetic changes to increase the font size in Spinboxes and Numeric entry controls
 
 **Version 1.0.0.7**
 
