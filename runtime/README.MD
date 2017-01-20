@@ -2,6 +2,16 @@ This directory contains patches to the runtime used for the LabVIEW Compatible C
 
 Revision Notes:
 
+[V1.0.0.822]
+
+Add support for Scale By Power Of 2
+
+Fix bug with disabled inputs on Index Array for ND arrays
+
+Fix bug with default values on Array Subset
+
+Fix bug with abort handling inside of nested SubVIs
+
 [V1.0.0.805]
 
 Add local configuration file (vi_name.cfg) to control window size and position
