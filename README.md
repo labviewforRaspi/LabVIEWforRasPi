@@ -16,6 +16,23 @@ Make sure you start from the Wiki page and follow ALL of its instructions on how
 
 ##Release Notes for VIP Packages##
 
+**Version 1.0.0.10**
+
+Runtime [V1.0.0.822]
+
+Add support for Scale By Power Of 2
+
+Fix bug with disabled inputs on Index Array for ND arrays
+
+Fix bug with default values on Array Subset
+
+Fix bug with abort handling inside of nested SubVIs
+
+Addition:
+
+- Data manipulation subpalette
+
+
 **Version 1.0.0.9**
 
 Runtime [V1.0.0.805]
