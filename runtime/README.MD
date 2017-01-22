@@ -2,6 +2,10 @@ This directory contains patches to the runtime used for the LabVIEW Compatible C
 
 Revision Notes:
 
+[V1.0.0.826]
+
+Add support for Data Manipulation functions
+
 [V1.0.0.822]
 
 Add support for Scale By Power Of 2
