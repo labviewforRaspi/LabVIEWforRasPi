@@ -1,4 +1,4 @@
-This directory contains patches to the runtime used for the LabVIEW Compatible Compiler for Raspberry Pi.  Follow the section named Upgrade Your Pi Runtime from [this documnent](https://github.com/labviewforRaspi/LabVIEWforRasPi/blob/master/Raspberry%20Pi%20Compatible%20Compiler%20for%20LabVIEW%20GUI%20-%20Operating%20Manual.pdf) for instructions on how to upgrade your Pi Runtime.
+This directory contains patches to the runtime used for the LabVIEW Compatible Compiler for Raspberry Pi.  Follow the section named Upgrade Your Pi Runtime from [this document](https://github.com/labviewforRaspi/LabVIEWforRasPi/blob/master/Raspberry%20Pi%20Compatible%20Compiler%20for%20LabVIEW%20GUI%20-%20Operating%20Manual.pdf) for instructions on how to upgrade your Pi Runtime.
 
 Revision Notes:
 
