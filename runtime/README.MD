@@ -2,6 +2,12 @@ This directory contains patches to the runtime used for the LabVIEW Compatible C
 
 Revision Notes:
 
+[V1.0.0.827]
+
+Fixed bug with hidden toolbars
+
+Fixed bug when re-running an aborted VI
+
 [V1.0.0.826]
 
 Add support for Data Manipulation functions
