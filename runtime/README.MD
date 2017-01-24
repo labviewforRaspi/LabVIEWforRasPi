@@ -2,6 +2,12 @@ This directory contains patches to the runtime used for the LabVIEW Compatible C
 
 Revision Notes:
 
+[V1.0.0.829]
+
+Fix bug with Combo Box when names do not match values
+
+Implement option to allow/disallow undefined strings in a combo box
+
 [V1.0.0.827]
 
 Fixed bug with hidden toolbars
