@@ -16,6 +16,19 @@ Make sure you start from the Wiki page and follow ALL of its instructions on how
 
 ##Release Notes for VIP Packages##
 
+**Version 1.0.0.11
+
+Runtime [V1.0.0.827]
+
+Fixed bug with hidden toolbars
+
+Fixed bug when re-running an aborted Vi
+
+Fixes:
+
+- Issue with shift register not properly functioning when branched in the block diagram
+
+
 **Version 1.0.0.10**
 
 Runtime [V1.0.0.822]
