@@ -16,6 +16,10 @@ Make sure you start from the Wiki page and follow ALL of its instructions on how
 
 ##Release Notes for VIP Packages##
 
+**Version 1.0.0.12
+
+General improvements on error handling
+
 **Version 1.0.0.11
 
 Runtime [V1.0.0.827]
