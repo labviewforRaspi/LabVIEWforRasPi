@@ -16,6 +16,10 @@ Make sure you start from the Wiki page and follow ALL of its instructions on how
 
 ##Release Notes for VIP Packages##
 
+**Version 1.0.0.13
+
+Fixed bug with Check for Updates functionality if activated from Compiler Menu
+
 **Version 1.0.0.12
 
 General improvements on error handling
