@@ -14,6 +14,13 @@ The complete product user manual can be found at this repository's Wiki page: ht
 
 Make sure you start from the Wiki page and follow ALL of its instructions on how to setup your environment as well as places to get more information.
 
+**ACTIVATION PROCEDURE**
+
+Once you have purchase a license, the activation of the Compiler needs to happen from within LabVIEW. **Do not attempt to activate the compiler from the webpage you used to purchase the license.** From within LabVIEW, go to the Help Menu and select Activate Addon. Then enter your credentials (License ID and Activation Password) on the popup screen.
+ 
+Make sure you have downloaded and installed the VIP package file that matches your purchased license type (there are two different VIP files, one for the Home edition and one for the Standard edition). **The Standaed VIP file won't activate with a Home license and vice versa.**
+
+
 ##Release Notes for VIP Packages##
 
 **Version 1.0.0.13
