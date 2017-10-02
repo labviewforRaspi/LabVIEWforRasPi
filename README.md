@@ -3,7 +3,9 @@ This repo includes some important documents with instructions on how to setup yo
 
 Make sure to burn a SD Card with the image dowloaded from the link above, even though the official Raspberry Pi PIXEL Operating System is maintained untouched in that image, all the necessary support packages have been installed and properly configured so your Raspberry Pi is ready to receive compiled LabVIEW code. We will not provide support if you decide to update your Pi's operating system via sudo update. We will do our best to release updated images as the Raspberry Pi organization updates the released OS.
 
-**A NOTE TO LABVIEW 2016 USERS: MAKE SURE YOU ARE USING THE LATEST VERSION OF VI PACKAGE MANAGER (2016 SP1), OTHERWISE THE COMPILER WILL NOT PROPERLY INSTALL ON YOUR LABVIEW 2016.**
+**A NOTE TO LABVIEW USERS: 
+- IF RUNNING LV 2016, MAKE SURE YOU ARE USING THE LATEST VERSION OF VI PACKAGE MANAGER (2016 SP1), OTHERWISE THE COMPILER WILL NOT PROPERLY INSTALL ON YOUR LABVIEW 2016
+- LV 2017 64-BIT NOT SUPPORTED. THE 32-BIT VERSION OF LV 2017 IS SUPPORTED**
 
 Make sure you go through the full Product User Manual made available on this repository's Wiki page, PRIOR TO START DOWNLOADING AND INSTALLING FILES.
 
