@@ -23,6 +23,14 @@ Once you have purchase a license, the activation of the Compiler needs to happen
  
 Make sure you have downloaded and installed the VIP package file that matches your purchased license type (there are two different VIP files, one for the Home edition and one for the Standard edition). **The Standaed VIP file won't activate with a Home license and vice versa.**
 
+Some common mistakes during activation to double check:
+
+1) Activation needs to happen from within LabVIEW. Open LabVIEW in Administration mode (right click the LabVIEW icon and select Run as Administrator), got to Help->Activate Add On... option. Select the compiler and click activate. Enter your license ID and password
+
+2) The compiler has two vip VI Package Manager files available for download. Make sure you download and install the one matching the purchased license edition. If you purchased the Home license, make sure to download the vip file that has a Home in the name. If you purchased the Standard license, make sure to download and install the vip file that DOES NOT have Home in the name. If you inadvertently installed the wrong vip file, uninstall it from VI Package Manager, download the correct vip file and attempt the installation again
+
+3) When downloading the vip file from the github repo, DO NOT right click at the file and select Save As. This will corrupt the download and the compiler will not install properly. Make sure to click at the Download button on github to download the file
+
 
 ##Release Notes for VIP Packages##
 
