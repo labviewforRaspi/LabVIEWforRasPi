@@ -8,6 +8,8 @@ IF RUNNING LV 2016, MAKE SURE YOU ARE USING THE LATEST VERSION OF VI PACKAGE MAN
 
 **LV 2017 64-BIT NOT SUPPORTED. THE 32-BIT VERSION OF LV 2017 IS SUPPORTED**
 
+**Raspberry Pi 3B+ and 4B not supported.**
+
 Make sure you go through the full Product User Manual made available on this repository's Wiki page, PRIOR TO START DOWNLOADING AND INSTALLING FILES.
 
 Support inquiries can be made at our support forum below (recommended) or through the following e-mail address: lvforpisupport@tsxperts.com.
